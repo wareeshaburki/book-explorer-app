@@ -1,25 +1,57 @@
-# Book Explorer App
+Book Explorer App
 
-A React app to explore books using the Google Books API.
+A modern React application to explore books using the Google Books API.
+Users can search for books, view details, and manage their favorite reads in a responsive and interactive UI.
 
-**Status:** Work in progress
+Features
 
-## What this project will do
-- Search books by title, author or ISBN
-- View book details (cover, description, authors, publisher, published date)
-- Add books to a favorites/reading list (persisted locally)
-- Pagination / Load more results
-- Book detail page with preview link
+Home Page:
+=> Search for books using the Google Books API.
+=> Display results in clean, responsive cards.
 
-## Tech stack
-- React
-- React Router
-- Fetch / Axios (Google Books API)
-- Tailwind CSS / plain CSS (to be decided)
-- LocalStorage for favorites
+Book Details Page:
+=> Detailed view of a selected book.
+=> Shows title, authors, publisher, description, and cover image.
+=> Handles missing data gracefully.
 
-## Quick start (development)
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/wareeshaburki/book-explorer-app.git
-   cd book-explorer-app
+Favorites Feature:
+=> Add/remove books to/from favorites.
+=> Favorites displayed in a responsive grid.
+=> Hover effects + subtle animations for interactivity.
+=> Favorites persisted with localStorage.
+
+State Management:
+=> Global favorites state using React Context API.
+
+Routing:
+=> Seamless navigation between Home, Book Details, and Favorites with React Router.
+
+UI/UX & Styling:
+=> Modern gradients, shadows, hover effects, and clean typography.
+=> Interactive animations for better user experience.
+=> Fully responsive design.
+
+Learning Points
+
+🔹 Handling async API calls & conditional rendering in React.
+🔹 Managing global state with Context API.
+🔹 Dynamic routing with react-router-dom.
+🔹 Modern CSS styling (future-ready for Tailwind CSS).
+🔹 Adding animations for better UX.
+🔹 Using localStorage to persist user data.
+
+Tech Stack
+
+React (CRA/Vite)
+React Router DOM
+Context API
+Google Books API
+CSS3 (gradients, animations, responsive design)
+
+Future Improvements
+=> Add pagination or infinite scroll for search results.
+=> Implement user authentication to save favorites online.
+=> Dark/Light mode toggle.
+=> Tailwind CSS for faster and cleaner styling.
+
+Built with ❤️ by Wareesha Burki
